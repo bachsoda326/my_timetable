@@ -1,6 +1,9 @@
-                                                    Custom my timtable from timetable flutter package:
-  - Pub:https://pub.dev/packages/timetable
+                                **  Custom my timetable from timetable flutter package:  **
+  - Pub: https://pub.dev/packages/timetable
   - Git: https://github.com/JonasWanke/timetable
+
+.......
+
 
 📅 Customizable, animated calendar widget including day & week views.
 
