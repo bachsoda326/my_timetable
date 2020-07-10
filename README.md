@@ -1,6 +1,6 @@
 CUSTOME TIMETABLE FORM TIMETABLE FLUTTER PACKAGE: 
-  Pub:https://pub.dev/packages/timetable
-  Git: https://github.com/JonasWanke/timetable
+  - Pub:https://pub.dev/packages/timetable
+  - Git: https://github.com/JonasWanke/timetable
 
 📅 Customizable, animated calendar widget including day & week views.
 
