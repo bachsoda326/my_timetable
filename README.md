@@ -1,4 +1,4 @@
-CUSTOME TIMETABLE FORM TIMETABLE FLUTTER PACKAGE: 
+                                                    Custom my timtable from timetable flutter package:
   - Pub:https://pub.dev/packages/timetable
   - Git: https://github.com/JonasWanke/timetable
 
