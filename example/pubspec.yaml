@@ -1,0 +1,21 @@
+name: timetable_example
+description: A simple example app for the timetable package
+version: 0.2.5
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  timetable:
+    path: ../
+  time_machine: ^0.9.12
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - packages/time_machine/data/cultures/cultures.bin
+    - packages/time_machine/data/tzdb/tzdb.bin

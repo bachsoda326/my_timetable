@@ -1,0 +1,25 @@
+name: timetable
+description: "📅 Customizable, animated calendar widget including day & week views"
+version: 0.2.5
+homepage: https://github.com/JonasWanke/timetable
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  black_hole_flutter: ^0.2.11
+  collection: ^1.14.11
+  dartx: ^0.4.0
+  meta: ^1.1.8
+  pedantic: ^1.8.0+1
+  rxdart: ^0.24.0
+  time_machine: ^0.9.12
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  test: ^1.9.4
