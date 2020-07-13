@@ -1,4 +1,4 @@
-import 'dart:ui';
+import 'dart:ui' as ui;
 
 import 'package:dartx/dartx.dart';
 import 'package:meta/meta.dart';
@@ -13,6 +13,8 @@ import 'basic.dart';
 abstract class Event {
   Event({
     @required this.id,
+    this.size,
+    this.offset,
     @required this.start,
     @required this.end,
   })
@@ -23,6 +25,12 @@ abstract class Event {
 
   /// A unique ID, used e.g. for animating events.
   final Object id;
+
+  /// Size of event widget.
+  ui.Size size;
+
+  /// Offset of event widget.
+  ui.Offset offset;
 
   /// Start of the event.
   LocalDateTime start;
@@ -47,7 +55,7 @@ abstract class Event {
   }
 
   @override
-  int get hashCode => hashList([runtimeType, id, start, end]);
+  int get hashCode => ui.hashList([runtimeType, id, start, end]);
 
   @override
   String toString() => id.toString();

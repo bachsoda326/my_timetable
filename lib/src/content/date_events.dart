@@ -130,6 +130,11 @@ class _DayEventsLayoutDelegate<E extends Event>
           columnWidth - position.index * stackedEventSpacing - eventSpacing;
 
       final childSize = Size(width.coerceAtLeast(minWidth), height);
+      // Set size of event widget.
+      event.size = childSize;
+      // Set offset of event widget.
+      event.offset = Offset(left, top);
+
       layoutChild(event.id, BoxConstraints.tight(childSize));
       positionChild(event.id, Offset(left, top));
     }
